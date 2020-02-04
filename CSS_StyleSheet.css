@@ -84,8 +84,8 @@ img.micut{
 }
 
 img.micut1{
-	z-index: 3;
 	width: 150px;
 	height: 150px;
 	float: left;
+	z-index: 3;
 }
