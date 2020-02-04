@@ -123,7 +123,7 @@ function seteazaFundal(){
 			document.getElementById("mesajDeAfisat").innerHTML = Mesaje[indice];
 			sir = "Roses/" + Luna + ".jpg";
 			document.body.style.backgroundImage = "url('" + sir + "')";
-			document.getElementById("imagineDeDesenat").src = './Poze/' + indice + '.JPG';
+			document.getElementById("imagineDeDesenat").src = './Poze/' + indice + '.jpg';
 			
 			
 		}
