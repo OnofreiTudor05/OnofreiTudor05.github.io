@@ -119,7 +119,7 @@ function seteazaFundal(){
 			for(i = 1; i<Luna; i++){
 				indice = indice + NumarZile[i];
 			}
-			indice = (indice + Zi -34)%100;
+			indice = (indice + Zi -34)%100 + 1;
 			document.getElementById("mesajDeAfisat").innerHTML = Mesaje[indice];
 			sir = "Roses/" + Luna + ".jpg";
 			document.body.style.backgroundImage = "url('" + sir + "')";
